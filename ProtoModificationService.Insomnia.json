@@ -1,0 +1,113 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-02-22T19:08:11.119Z",
+  "__export_source": "insomnia.desktop.app:v2021.3.0",
+  "resources": [
+    {
+      "_id": "req_c0f7c855a4704b11851d528fcd64438d",
+      "parentId": "fld_3c5f24e103364563a8bc569617dfccd1",
+      "modified": 1645556803904,
+      "created": 1645556803904,
+      "url": "https://localhost:49157/api/protobuf",
+      "name": "ProtoModificationService",
+      "description": "Example call to the ProtoModificationService",
+      "method": "POST",
+      "body": {
+        "params": [
+          {
+            "type": "text",
+            "name": "b64Proto",
+            "disabled": false,
+            "value": "YOUR_PROTOBUF_RAW_BASE64_DATA_GOES_HERE"
+          },
+          {
+            "type": "text",
+            "name": "find",
+            "disabled": false,
+            "value": "SOME_VALUE_TO_FIND_IN_PROTOBUF"
+          },
+          {
+            "type": "text",
+            "name": "replace",
+            "disabled": false,
+            "value": "SOME_VALUE_TO_REPLACE_WITH_IN_PROTOBUF"
+          }
+        ],
+        "mimeType": "multipart/form-data"
+      },
+      "parameters": [
+      ],
+      "headers": [
+      ],
+      "authentication": {
+      },
+      "metaSortKey": -1645556803905,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_3c5f24e103364563a8bc569617dfccd1",
+      "parentId": "wrk_d110bf413b7d488c95fe5dd8e29fa161",
+      "modified": 1645556807505,
+      "created": 1645556807505,
+      "name": "ProtoModificationService",
+      "description": "",
+      "environment": {
+      },
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1645556807505,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_d110bf413b7d488c95fe5dd8e29fa161",
+      "parentId": null,
+      "modified": 1645556780262,
+      "created": 1645556780262,
+      "name": "ProtoModificationService",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_649e66778e0cd16ab5d6c7ddc688599a29117d44",
+      "parentId": "wrk_d110bf413b7d488c95fe5dd8e29fa161",
+      "modified": 1645556780881,
+      "created": 1645556780881,
+      "name": "Base Environment",
+      "data": {
+      },
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1645556780881,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_649e66778e0cd16ab5d6c7ddc688599a29117d44",
+      "parentId": "wrk_d110bf413b7d488c95fe5dd8e29fa161",
+      "modified": 1645556780893,
+      "created": 1645556780893,
+      "name": "Default Jar",
+      "cookies": [
+      ],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_51a945b1b31d4ba4b8641bfa74fd14b3",
+      "parentId": "wrk_d110bf413b7d488c95fe5dd8e29fa161",
+      "modified": 1645556780266,
+      "created": 1645556780266,
+      "fileName": "ProtoModificationService",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}

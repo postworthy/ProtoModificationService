@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoModificationService", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5731426F-330D-4AA4-896E-A99413644041}"
 	ProjectSection(SolutionItems) = preProject
+		ProtoModificationService.Insomnia.json = ProtoModificationService.Insomnia.json
 		ProtoModificationService.postman_collection.json = ProtoModificationService.postman_collection.json
 		README.md = README.md
 	EndProjectSection
