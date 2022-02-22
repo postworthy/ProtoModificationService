@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "95e52aa1-a5a6-4728-8076-fa48894de78e",
+		"name": "ProtoModificationService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ProtoModificationService",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "b64Proto",
+							"value": "YOUR_PROTOBUF_RAW_BASE64_DATA_GOES_HERE",
+							"type": "text"
+						},
+						{
+							"key": "find",
+							"value": "SOME_VALUE_TO_FIND_IN_PROTOBUF",
+							"type": "text"
+						},
+						{
+							"key": "replace",
+							"value": "SOME_VALUE_TO_REPLACE_WITH_IN_PROTOBUF",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:49157/api/protobuf",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "49157",
+					"path": [
+						"api",
+						"protobuf"
+					]
+				},
+				"description": "Example call to the ProtoModificationService"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,2 @@
+# ProtoModificationService
+ProtoModificationService is a web service which listens for raw protobuf data and and attempts to genetrate a *.proto which approximates the data contained within the raw input enough to make the requested string modifications.
